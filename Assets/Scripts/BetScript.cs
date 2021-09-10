@@ -34,9 +34,5 @@ public class BetScript : MonoBehaviour
             BetValue += BetStep;
             
         }
-
-        //int betValue = int.Parse(GetComponent<Text>().text);
-        //betValue += int.Parse(value);
-        //GetComponent<Text>().text = betValue.ToString();
     }
 }
