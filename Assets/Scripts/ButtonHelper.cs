@@ -16,12 +16,14 @@ public class ButtonHelper : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // when choise made
         if (GameScript.ChoiseMade == true)
         {
             ButtonInteractable("Equals7", false);
             ButtonInteractable("Up7", false);
             ButtonInteractable("Down7", false);
         }
+        //when bet made
         else if (GameScript.BetMade == true)
         {
             ButtonInteractable("MinusButton", false);

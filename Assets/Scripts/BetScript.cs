@@ -10,7 +10,6 @@ public class BetScript : MonoBehaviour
     public int MinBetValue;
 
     private ScoreScript ScoreScript;
-    private MenuScript MenuScript;
     // Start is called before the first frame update
     void Start()
     {
