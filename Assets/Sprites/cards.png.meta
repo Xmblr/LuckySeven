@@ -40,7 +40,7 @@ TextureImporter:
     second: Kspade
   - first:
       213: 4758714507323444636
-    second: Aspade
+    second: 1spade
   - first:
       213: -5167807243808128219
     second: 2heart
@@ -79,7 +79,7 @@ TextureImporter:
     second: Kheart
   - first:
       213: 7028969208027117126
-    second: Aheart
+    second: 1heart
   - first:
       213: -7182693308199855722
     second: 2diamond
@@ -118,7 +118,7 @@ TextureImporter:
     second: Kdiamond
   - first:
       213: 836262810560953326
-    second: Adiamond
+    second: 1diamond
   - first:
       213: -5622938358748693357
     second: 2club
@@ -157,7 +157,7 @@ TextureImporter:
     second: Kclub
   - first:
       213: -1304566618446825538
-    second: Aclub
+    second: 1club
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -523,7 +523,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Aspade
+      name: 1spade
       rect:
         serializedVersion: 2
         x: 3070
@@ -796,7 +796,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Aheart
+      name: 1heart
       rect:
         serializedVersion: 2
         x: 3070
@@ -1069,7 +1069,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adiamond
+      name: 1diamond
       rect:
         serializedVersion: 2
         x: 3070
@@ -1342,7 +1342,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Aclub
+      name: 1club
       rect:
         serializedVersion: 2
         x: 3070

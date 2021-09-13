@@ -10,15 +10,29 @@ public class BetScript : MonoBehaviour
     public int MinBetValue;
 
     private ScoreScript ScoreScript;
+
+    private void Awake()
+    {
+        ScoreScript = GameObject.Find("Score").GetComponent<ScoreScript>();
+    }
     // Start is called before the first frame update
     void Start()
     {
-        ScoreScript = GameObject.Find("Score").GetComponent<ScoreScript>();
+        StartGame();
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+    }
+
+    public void StartGame()
+    {
+        if (int.Parse(GetComponent<Text>().text) > ScoreScript.ScoreValue)
+        {
+            BetValue = ScoreScript.ScoreValue;
+        }
         GetComponent<Text>().text = BetValue.ToString();
     }
 
@@ -31,7 +45,7 @@ public class BetScript : MonoBehaviour
         if (value == "plus" && BetValue < ScoreScript.ScoreValue)
         {
             BetValue += BetStep;
-            
         }
+        GetComponent<Text>().text = BetValue.ToString();
     }
 }

@@ -5,16 +5,21 @@ using UnityEngine.UI;
 
 public class ButtonHelper : MonoBehaviour
 {
-    public GameObject CardObject;
+    //public GameObject CardObject;
     private GameScript GameScript;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        GameScript = CardObject.GetComponent<GameScript>();
+        GameScript = GetComponent<GameScript>();
     }
 
     // Update is called once per frame
     void Update()
+    {
+       
+    }
+
+    public void ChangeState()
     {
         // when choise made
         if (GameScript.ChoiseMade == true)
